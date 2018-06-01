@@ -80,14 +80,25 @@ class ViewController: UIViewController,RATreeViewDelegate,RATreeViewDataSource {
         }
     }
     
+    func treeView(_ treeView: RATreeView, didSelectRowForItem item: Any) {
+        let x = item as! DataObject
+        print(x.name)
+    }
+    
+   
     func treeView(_ treeView: RATreeView, child index: Int, ofItem item: Any?) -> Any {
         if let item = item as? DataObject {
+            let x = item.children[index] as! DataObject
+//            print(x.name)
             return item.children[index]
         } else {
+            let x = data[index] as! DataObject
+  //          print(x.name)
             return data[index] as AnyObject
         }
     }
     
+   
     func treeView(_ treeView: RATreeView, cellForItem item: Any?) -> UITableViewCell {
         let cell = treeView.dequeueReusableCell(withIdentifier: String(describing: TreeTableViewCell.self)) as! TreeTableViewCell
         let item = item as! DataObject
