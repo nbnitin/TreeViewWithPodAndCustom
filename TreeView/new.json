@@ -1,0 +1,96 @@
+{
+    "success": true,
+    "data": [
+             {
+             "id": "1",
+             "title": "Print Magazine",
+             "alias": "print-magazine",
+             "parent_id": "0",
+             "children": [
+                          {
+                          "id": "6",
+                          "title": "Magazine-2",
+                          "alias": "magazine-2",
+                          "parent_id": "1",
+                          "children": [
+                                       {
+                                       "id": "10",
+                                       "title": "Magzine-2-1",
+                                       "alias": "magzine-2-1",
+                                       "parent_id": "6",
+                                       "children": [
+                                                    {
+                                                    "id": "12",
+                                                    "title": "Magzine-2-2-1",
+                                                    "alias": "magzine-2-2-1",
+                                                    "parent_id": "10",
+                                                    "children": []
+                                                    }
+                                                    ]
+                                       },
+                                       {
+                                       "id": "11",
+                                       "title": "Magzine-2-2",
+                                       "alias": "magzine-2-2",
+                                       "parent_id": "6",
+                                       "children": []
+                                       }
+                                       ]
+                          },
+                          {
+                          "id": "5",
+                          "title": "Magazine-1",
+                          "alias": "magazine-1",
+                          "parent_id": "1",
+                          "children": []
+                          }
+                          ]
+             },
+             {
+             "id": "2",
+             "title": "Magazines",
+             "alias": "magazines",
+             "parent_id": "0",
+             "children": [
+                          {
+                          "id": "7",
+                          "title": "My Magazines",
+                          "alias": "magazines-2",
+                          "parent_id": "2",
+                          "children": []
+                          }
+                          ]
+             },
+             {
+             "id": "3",
+             "title": "Bootles",
+             "alias": "bootles",
+             "parent_id": "0",
+             "children": [
+                          {
+                          "id": "8",
+                          "title": "Bottle-Subcat",
+                          "alias": "bottle-subcat",
+                          "parent_id": "3",
+                          "children": []
+                          }
+                          ]
+             },
+             {
+             "id": "4",
+             "title": "Accessories",
+             "alias": "accessories",
+             "parent_id": "0",
+             "children": [
+                          {
+                          "id": "9",
+                          "title": "Keep Accesories",
+                          "alias": "keep-accesories",
+                          "parent_id": "4",
+                          "children": []
+                          }
+                          ]
+             }
+             ],
+    "status": "1"
+}
